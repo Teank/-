@@ -3,30 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tkgetter</string>
+	<string>funvoid</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class#&gt;*)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = [[&lt;#Class#&gt; alloc]init];
-    }
-    return _&lt;#name#&gt;;
-}
-</string>
+	<string>- (void)&lt;#name#&gt; {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CB02D0D8-FC09-41C3-A49C-22859067A658</string>
+	<string>41C0DEB6-4C2E-42FF-8E55-CFEB7AA24909</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>getter</string>
+	<string>functionCreateVoid</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
